@@ -1,2 +1,41 @@
-Bancos de Dados Relacionais (SQL) e Bancos de Dados Não Relacionais
+Bancos de Dados Relacionais (SQL)
+
 Conceitos e Definições
+Modelo Relacional: Baseado em tabelas (ou relações) que consistem em linhas e colunas. Cada tabela representa uma entidade e suas propriedades.
+Chave Primária: Uma coluna ou um conjunto de colunas que identificam unicamente cada linha em uma tabela.
+Chave Estrangeira: Uma coluna em uma tabela que cria um vínculo entre os dados de duas tabelas, mantendo a integridade referencial.
+Normalização: Processo de organizar os dados para reduzir a redundância e melhorar a integridade dos dados.
+Consultas SQL (Structured Query Language): Linguagem padrão para interagir com bancos de dados relacionais. Exemplos incluem SELECT, INSERT, UPDATE e DELETE.
+
+Fundamentos de Bancos Relacionais que todo Engenheiro de Dados precisa dominar:
+ACID Properties (Atomicidade, Consistência, Isolamento, Durabilidade): Bancos de dados relacionais garantem estas propriedades para garantir transações confiáveis.
+Schemas Estruturados: SQL impõe um esquema fixo, o que significa que a estrutura dos dados é definida antecipadamente.
+Complexidade de Consultas: SQL é ideal para consultas complexas e analíticas devido às suas capacidades robustas de junção e agregação.
+Ferramentas de BI: Ferramentas de Business Intelligence são frequentemente integradas com bancos de dados SQL para análises avançadas.
+
+
+Bancos de Dados Não Relacionais (NoSQL)
+Conceitos e Definições
+Modelo de Dados Flexível: NoSQL permite modelos de dados flexíveis e sem esquema, o que facilita a gestão de dados heterogêneos e em constante mudança.
+Tipos de Bancos de Dados NoSQL:
+Documentos: Armazenam dados em documentos JSON ou BSON (Ex: MongoDB).
+Grafos: Representam dados em grafos com vértices e arestas (Ex: Neo4j).
+Chave-Valor: Armazenam dados como pares chave-valor (Ex: Redis).
+Colunas Amplas: Armazenam dados em tabelas com colunas altamente dinâmicas (Ex: Cassandra).
+Escalabilidade Horizontal: NoSQL é projetado para escalar horizontalmente, adicionando mais servidores para distribuir a carga.
+
+Fundamentos de Bancos Não Relacionais que todo Engenheiro de Dados precisa dominar:
+BASE Properties (Basicamente Disponível, Estado Suave, Consistência Eventual): NoSQL geralmente adota o modelo BASE, oferecendo alta disponibilidade e desempenho em detrimento da consistência imediata.
+Desempenho e Escalabilidade: Ideal para aplicações que requerem alto desempenho e escalabilidade, como redes sociais, big data e IoT.
+Agilidade no Desenvolvimento: Esquemas flexíveis permitem alterações rápidas e ágeis no modelo de dados.
+Cenários de Uso: NoSQL é adequado para casos de uso específicos, como grandes volumes de dados não estruturados, dados altamente conectados e análise em tempo real.
+
+Comparação SQL vs NoSQL
+Estrutura de Dados: SQL tem um esquema fixo, enquanto NoSQL é mais flexível.
+Transações: SQL garante ACID, NoSQL foca mais em disponibilidade e escalabilidade.
+Complexidade da Consulta: SQL é melhor para consultas complexas; NoSQL é otimizado para acessos rápidos a grandes volumes de dados.
+Escalabilidade: SQL geralmente escala verticalmente, NoSQL escala horizontalmente.
+
+Conclusão
+O papel de um Engenheiro de Dados envolve escolher a tecnologia de banco de dados que melhor se adapta aos requisitos de negócios e às características dos dados.
+Compreender as diferenças e pontos fortes de bancos de dados relacionais e não relacionais é crucial para projetar sistemas de dados eficientes e escaláveis.
